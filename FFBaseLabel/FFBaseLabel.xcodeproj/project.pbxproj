@@ -14,6 +14,7 @@
 		495507D32BFC302900415A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495507D22BFC302900415A76 /* Assets.xcassets */; };
 		495507D62BFC302900415A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495507D42BFC302900415A76 /* LaunchScreen.storyboard */; };
 		495507D92BFC302900415A76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495507D82BFC302900415A76 /* main.m */; };
+		495507E22BFC366700415A76 /* FFBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 495507E02BFC366700415A76 /* FFBaseLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		495507D52BFC302900415A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495507D72BFC302900415A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495507D82BFC302900415A76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495507E02BFC366700415A76 /* FFBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFBaseLabel.m; sourceTree = "<group>"; };
+		495507E12BFC366700415A76 /* FFBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFBaseLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		495507C52BFC302700415A76 /* FFBaseLabel */ = {
 			isa = PBXGroup;
 			children = (
+				495507DF2BFC366700415A76 /* Source */,
 				495507C62BFC302700415A76 /* AppDelegate.h */,
 				495507C72BFC302700415A76 /* AppDelegate.m */,
 				495507C92BFC302700415A76 /* SceneDelegate.h */,
@@ -74,6 +78,16 @@
 				495507D82BFC302900415A76 /* main.m */,
 			);
 			path = FFBaseLabel;
+			sourceTree = "<group>";
+		};
+		495507DF2BFC366700415A76 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				495507E02BFC366700415A76 /* FFBaseLabel.m */,
+				495507E12BFC366700415A76 /* FFBaseLabel.h */,
+			);
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495507E22BFC366700415A76 /* FFBaseLabel.m in Sources */,
 				495507CE2BFC302700415A76 /* ViewController.m in Sources */,
 				495507C82BFC302700415A76 /* AppDelegate.m in Sources */,
 				495507D92BFC302900415A76 /* main.m in Sources */,
